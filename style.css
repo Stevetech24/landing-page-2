@@ -416,6 +416,9 @@ hr {
     padding-left: 40px;
     padding-right: 40px;
   }
+  .hero-line {
+    text-decoration: none;
+  }
 }
 @media (max-width: 979px) {
   html {
@@ -687,5 +690,6 @@ hr {
     justify-content: center;
   }
 }
+
 
 
