@@ -410,7 +410,7 @@ hr {
 /* MEDIA QUERY STARTS HERE  */
 @media (max-width: 1200px) {
   .nav-section {
-    padding: 24px 130px;
+    padding: 24px 100px;
   }
   .container {
     padding-left: 40px;
@@ -687,4 +687,5 @@ hr {
     justify-content: center;
   }
 }
+
 
