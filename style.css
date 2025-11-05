@@ -409,8 +409,21 @@ hr {
 }
 /* MEDIA QUERY STARTS HERE  */
 @media (max-width: 1200px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   .nav-section {
-    padding: 24px 100px;
+    padding: 24px 50px !important;
+  }
+  .nav-cell {
+    padding: 20px;
+  }
+  .nav-left ul {
+    gap: 15px;
+  }
+  .nav-right {
+    gap: 15px;
   }
   .container {
     padding-left: 40px;
@@ -421,6 +434,15 @@ hr {
   }
   .hero-cell header h1 {
     line-height: 100px;
+  }
+  .companies {
+    gap: 40px;
+  }
+  .cell-6 {
+    gap: 20px;
+  }
+  .cell-6 img {
+    width: 50%;
   }
 }
 @media (max-width: 979px) {
@@ -693,6 +715,7 @@ hr {
     justify-content: center;
   }
 }
+
 
 
 
