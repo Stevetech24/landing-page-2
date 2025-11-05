@@ -70,6 +70,9 @@ li {
   color: white;
   font-size: 1.6rem;
 }
+.nav-responsive {
+  display: none;
+}
 /*  */
 .hero-cell {
   background-color: #0f172a;
@@ -512,6 +515,9 @@ hr {
     /* background-color: transparent; */
     display: none;
   }
+   .nav-responsive {
+    display: block;
+  }
   .nav-responsive h1 {
     font-size: 3.2rem;
   }
@@ -681,3 +687,4 @@ hr {
     justify-content: center;
   }
 }
+
